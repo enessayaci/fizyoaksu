@@ -1,0 +1,64 @@
+.fza-service-card{
+  transition: all 0.15s ease;
+
+  &:hover{
+    background: #fff !important;
+
+    .fza-service-card__icon{
+      filter: sepia(30%) saturate(4000%) brightness(70%) hue-rotate(123deg);
+    }
+    
+    & h2{
+      color: $secondary !important;
+    }
+
+    & p{
+      color: $gray-600 !important;
+    }
+
+    & a{
+      border-color: $secondary !important;
+      color: $secondary !important;
+    }
+  }
+
+  & &__icon{
+    transition: all 0.15s ease;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 150px;
+  
+    &--exercise-counseling{
+      background-image: url("/images/exercise.png");
+    }
+
+    &--women-health{
+      background-image: url("/images/women-health.png");
+    }
+
+    &--physiotherapy-consulting{
+      background-image: url("/images/physiotherapy-consulting.png");
+    }
+  }
+
+  & h2{
+    transition: all 0.15s ease;
+    color: #fff;
+  }
+
+  & p{
+    transition: all 0.15s ease;
+    color: #fff;
+  }
+
+  & a{
+    transition: all 0.15s ease;
+    border: 1px solid #fff;
+    color: #fff;
+
+    &:hover{
+      color: #fff !important;
+    }
+  }
+}

@@ -1,0 +1,56 @@
+.fza-hero{
+  background-image: url("/images/hero.webp");
+  background-repeat: no-repeat;
+  background-size:auto 115%;
+  background-position: 100% calc(100% + 120px);
+  position: relative;
+
+  @media screen and (max-width: 767px) {
+    background-position: center calc(100% + 160px) !important;
+  }
+
+  &::after{
+    filter: blur(3px);
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    height: 100%;
+    width: 100%;
+    z-index: -2;
+    background-image: url("/images/hero-bg.webp");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: right;
+  }
+  &::before{
+    opacity: 0.85;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-color: #44c2e1;
+  }
+}
+.fza-parallax{
+    position: absolute;
+    right: 0%;
+    bottom: 10%;
+    width: 100%;
+    height:40%;
+    background-image: url("/images/parallax.png");
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: right;
+    filter: drop-shadow(8px -8px 0px #fff);
+}
+.fza-bg-physiotherapy{
+    background-image: url("/images/physiotherapy-bg.png");
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position:right center;
+}

@@ -1,0 +1,19 @@
+@import "./colors";
+
+.fza-infocard-icon{
+  margin: -35px 14px 8px -25px;
+  transition: transform 0.25s ease;
+  transform-origin: center
+  // filter: drop-shadow(55px);
+}
+.fza-infocard{
+  transition: background-color 0.25s ease;
+  &:hover{
+    background-color: lighten($primary, 15%) !important;
+    transition: background-color 0.25s ease;
+    .fza-infocard-icon{
+      transform: scale(1.1);
+      transition: transform 0.25s ease;
+    }
+  }
+}

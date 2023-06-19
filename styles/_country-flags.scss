@@ -1,0 +1,14 @@
+.rek-flag{
+  width: 23px;
+  height: 23px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  &.rek-flag-tr{
+    background-image: url("/images/turkey.png");
+  }
+  &.rek-flag-en{
+    background-image: url("/images/united-kingdom.png");
+  }
+}

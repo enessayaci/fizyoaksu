@@ -35,7 +35,7 @@ const Home = () => {
 
   return (
     <div>
-      <div className='fza-hero position-relative min-vh-100 d-flex flex-column'>
+      <div className='test fza-hero position-relative min-vh-100 d-flex flex-column'>
         <Navbar/>
         <div className='container flex-grow-1 d-flex flex-column'>
             <h1 className='text-light display-3 col-md-6 col-12 my-auto'>

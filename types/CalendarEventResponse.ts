@@ -3,6 +3,6 @@ type CalendarEventResponse = {
     title: String,
     doctorId: String
     start: Date
-    end?: Date
+    end: Date
     backgroundColor?: String,
 }

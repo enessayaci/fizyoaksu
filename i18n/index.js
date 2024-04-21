@@ -22,13 +22,17 @@ const resources = {
       pleasentEnv: "Nezih ve samimi bir ortam",
       central: "Şehrin merkezinde",
       exerciseCounseling: "Egzersiz Danışmanlığı",
-      exerciseCounselingShortText: "Rehabilitasyon İçin Egzersiz,Mat Pilates...",
+      exerciseCounselingShortText:
+        "Rehabilitasyon İçin Egzersiz,Mat Pilates...",
       learnMore: "DETAYLAR",
       physicalTherapyInWomensHealth: "Kadın Sağlığında Fizik Tedavi",
-      physicalTherapyInWomensHealthShortText: "İdrar Kaçırma, Sık Tuvalete çıkma...",
+      physicalTherapyInWomensHealthShortText:
+        "İdrar Kaçırma, Sık Tuvalete çıkma...",
       physiotherapyConsulting: "Fizyoterapi Danışmanlığı",
-      physiotherapyConsultingShortText: "Ortopedik Rehabilitasyon, Ağrı Tedavisi...",
-    }
+      physiotherapyConsultingShortText:
+        "Ortopedik Rehabilitasyon, Ağrı Tedavisi...",
+      updateAppointment: "Randevuyu Güncelle",
+    },
   },
   en: {
     translation: {
@@ -50,11 +54,14 @@ const resources = {
       exerciseCounselingText: "Exercise for Rehabilitation, Mat Pilates...",
       learnMore: "DETAILS",
       physicalTherapyInWomensHealth: "Physical Therapy in Women's Health",
-      physicalTherapyInWomensHealthShortText: "Urinary Incontinence, Frequent Going to the Toilet...",
+      physicalTherapyInWomensHealthShortText:
+        "Urinary Incontinence, Frequent Going to the Toilet...",
       physiotherapyConsulting: "Physiotherapy Consulting",
-      physiotherapyConsultingShortText: "Orthopedic Rehabilitation, Pain Management...",
-    }
-  }
+      physiotherapyConsultingShortText:
+        "Orthopedic Rehabilitation, Pain Management...",
+      updateAppointment: "Update Appointment",
+    },
+  },
 };
 
 i18n

@@ -17,7 +17,7 @@ const Home = () => {
   useEffect(() => {
     import('bootstrap');
 
-    $.fn.parallax = function(resistance, mouse) {
+    $.fn.parallax = function(resistance:any, mouse:any) {
       let el = $(this);
       TweenLite.to(el, 0.2, {
         x: ((mouse.clientX - window.innerWidth / 2) / resistance),
@@ -25,7 +25,7 @@ const Home = () => {
       });
     };
     
-    $(document).mousemove(function(e) {
+    $(document).mousemove(function(e:Event) {
       // $(".background").parallax(-30, e);
       $(".fza-parallax").parallax(40, e);
       // $(".cloud2").parallax(20, e);
@@ -35,7 +35,7 @@ const Home = () => {
 
   return (
     <div>
-      <div className='test fza-hero position-relative min-vh-100 d-flex flex-column'>
+      <div className='fza-hero position-relative min-vh-100 d-flex flex-column'>
         <Navbar/>
         <div className='container flex-grow-1 d-flex flex-column'>
             <h1 className='text-light display-3 col-md-6 col-12 my-auto'>
